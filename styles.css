@@ -1,0 +1,162 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #fddde6; 
+    color: #5e3c3c; 
+}
+
+header, footer {
+    background-color: #ff99aa; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+h1, h2 {
+    color: #ff5e6c; 
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #d2691e; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a0522d; 
+}
+
+#informasi ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+#informasi li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+img {
+    border-radius: 10px;
+    border: 3px solid #ff5e6c; 
+    margin-bottom: 20px;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.slide-in {
+    animation: slideIn 1s ease-in-out;
+}
+
+body {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in forwards;
+}
+/* Animasi Fade-in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+/* Animasi Slide-in */
+@keyframes slideIn {
+    from {
+        transform: translateY(30px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 1s ease-in;
+}
+
+.slide-in {
+    animation: slideIn 1s ease-in-out;
+}
+
+
+body {
+    background-color: #fddde6; 
+    color: #5e3c3c; 
+}
+
+header, footer {
+    background-color: #ff99aa; 
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+button {
+    background-color: #d2691e; 
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #a0522d; 
+}
+
+video {
+    border-radius: 10px;
+    border: 3px solid #ff5e6c; 
+    margin-bottom: 20px;
+}

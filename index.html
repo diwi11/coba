@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portofolio Meisya</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Selamat Datang di Penugasan Kehadiran dan pengganti Mata Kuliah Pemrograman Web B</h1>
+    </header>
+
+    <main>
+        <section id="video" class="slide-in">
+            <h2>Hi theree</h2>
+            <video width="300" height="200" autoplay loop muted>
+                <source src="Kucing.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </section>
+        <section id="tentang">
+            <h2>About Me</h2>
+            <p>Click the button below to see my cutie patootie photos and my information.</p>
+            <button id="lihatDetail">I wanna see the detail</button>
+            <br><br>
+            <p>Or do you want to see my journey?</p>
+            <button id="lihatJourney">How about my journey?</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2024 Portofolio Meisya Baik Hati dan tidak sombong</p>
+    </footer>
+
+    <script>
+        const lihatDetail = document.getElementById('lihatDetail');
+        lihatDetail.addEventListener('click', function() {
+            window.location.href = 'detail.html';
+        });
+
+        const lihatJourney = document.getElementById('lihatJourney');
+        lihatJourney.addEventListener('click', function() {
+            window.location.href = 'journey.html';  
+        });
+    </script>
+</body>
+</html>
